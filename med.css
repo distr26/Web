@@ -6,10 +6,10 @@
         grid-template-areas: 'header header'
                             'controller controller'
                             'content content';
-        grid-template-rows: 10% 50% 40%;
+        grid-template-rows: 10% 20% 70%;
         grid-template-columns: 75% 25%;
         min-height: 150vh;
-        height: fit-content;
+        height: max-content;
         width: 100vw;
     }
     .aside
@@ -77,11 +77,12 @@
         grid-template-areas: 'header'
                             'controller'
                             'content';
-        grid-template-rows: 20% 50% 30%;
+        grid-template-rows: 10% 10% 80%;
         grid-template-columns: 100%;
         min-height: 150vh;
         height: fit-content;
         width: 100vw;
+        padding-bottom: 10px;
     }
     .aside
     {
